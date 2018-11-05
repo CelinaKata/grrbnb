@@ -10,6 +10,7 @@
     --FS_small: 0.75rem;
     --blueLb: #03799B;
     --grayInput: #545F73;
+    --blueBt: #336890;
 }
 
 *{
@@ -58,7 +59,7 @@ header img{
     height: 2.5rem;
     font-size: var(--FS5);
     color: hsl(var(--primary),0%,100%);
-    background-color: hsl(var(--primary),50%,45%);
+    background-color: var(--blueBt);
 }
 .form-box label{
     color: var(--blueLb);
